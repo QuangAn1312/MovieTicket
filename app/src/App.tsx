@@ -1,13 +1,18 @@
 import React from 'react';
-import './App.scss';
+import { Provider } from 'react-redux';
+// import './App.scss';
+import './index.scss';
 import { BrowserRouter , Route, Routes } from 'react-router-dom';
 import HomeTemplate from './Templates/HomePage';
 import Login from './Pages/Login/Login';
+import {store} from './Types/configStore'
 
 
 function App():React.ReactElement {
   return (
-    <BrowserRouter>
+    
+    <Provider store={ store }>
+      <BrowserRouter>
       <Routes>
       <Route path='' element={<HomeTemplate/>}>
         <Route path ='/login' element={ <Login/> } />
@@ -15,6 +20,7 @@ function App():React.ReactElement {
       </Route>
       </Routes>
     </BrowserRouter>
+    </Provider>
   );
 }
 

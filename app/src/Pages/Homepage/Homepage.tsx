@@ -2,6 +2,7 @@ import React from 'react'
 import Banner from './Banner'
 import MovieShow from './MovieShow'
 import Footer from './Footer'
+import HomeMenu from './HomeMenu'
 type Props = {}
 
 const Homepage = (props: Props) => {
@@ -9,6 +10,7 @@ const Homepage = (props: Props) => {
     <div>
     <Banner/>
     <MovieShow/>
+    <HomeMenu/>
     <Footer/>
     </div>
    

@@ -1,6 +1,4 @@
 
-
-
 const stateBanner = [
     {
         "currentPage": 1,
@@ -123,7 +121,7 @@ const stateBanner = [
 ];
 
 
-export const BannerReducer = (state = stateBanner, action) => {
+export const BannerReducer = (state = stateBanner,action:any) => {
     switch (action.type) {
         default: return { ...state }
     }
