@@ -4,8 +4,8 @@ import { Provider } from 'react-redux';
 import './index.scss';
 import { BrowserRouter , Route, Routes } from 'react-router-dom';
 import HomeTemplate from './Templates/HomePage';
-import Login from './Pages/Login/Login';
-import {store} from './Types/configStore'
+import Login from '../src/Pages/Login/Login';
+import {store} from './Redux/Types/configStore'
 
 
 function App():React.ReactElement {

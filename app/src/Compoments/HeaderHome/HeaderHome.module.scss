@@ -1,5 +1,22 @@
-#heading-homemovie {
-    .heading-home{
-        background-color: black;
+
+    .headerHome {
+        background-color: #FFFFFF;
+        opacity: 0.9;
+        ul{
+            a {
+                
+                &:hover {
+                    color: #FB4226;
+                }
+            }
+        }
+        .headerButton{
+            a{
+                font-size: 18px;
+                padding: 0 6px;
+                &:hover {
+                    color: #FB4226;
+                }
+            }
+        }
     }
-}
