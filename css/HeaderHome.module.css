@@ -1,4 +1,18 @@
-.navbar-logo1 {
-  height: 10%;
+.headerHome {
+  background-color: #FFFFFF;
+  opacity: 0.9;
+}
+
+.headerHome ul a:hover {
+  color: #FB4226;
+}
+
+.headerHome .headerButton a {
+  font-size: 18px;
+  padding: 0 6px;
+}
+
+.headerHome .headerButton a:hover {
+  color: #FB4226;
 }
 /*# sourceMappingURL=HeaderHome.module.css.map */
